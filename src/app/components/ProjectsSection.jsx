@@ -4,12 +4,16 @@ import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
+// Example dynamic import
+const img1 = require("../../images/projects/1.jpg");
+
+
 const projectsData = [
   {
     id: 1,
     title: "Covid-19 Detection using X-rays",
     description: "Developed a novel lightweight model for detection of covid 19.",
-    image: "/images/projects/1.jpg",
+    image: img1,
     tag: ["All", "Data Science"],
     gitUrl: "https://github.com/naziya-19/Detection-of-Covid-19-and-Viral-Pneumonia-Using-X-rays-Images",
     previewUrl: "https://drive.google.com/file/d/1YrerHUuGMAeGhtxXkzQGE5-WCxQ13cqG/view?usp=drive_link",
