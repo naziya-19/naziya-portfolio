@@ -19,7 +19,7 @@ import Link from "next/link";
           <h2 className="text-4xl font-bold text-white mb-8">Blog</h2>
             <p className="text-base lg:text-lg">
             Blogging is my creative outlet, where I share insights, 
-            ideas, and experiences. It's a journey of exploration and expression, 
+            ideas, and experiences. It&apos;s a journey of exploration and expression, 
             inviting others to join in the conversation.
             </p>
             <div className="mt-8">
