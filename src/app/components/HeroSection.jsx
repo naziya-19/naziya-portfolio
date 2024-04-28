@@ -63,7 +63,8 @@ export const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[265px] h-[265px] lg:w-[415px] lg:h-[415px] relative">
             <Image
-              src="../../images/Designer.png"
+              unoptimized
+              src="/images/Designer.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}

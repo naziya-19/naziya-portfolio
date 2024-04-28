@@ -54,8 +54,8 @@ export const Screen3D = () => {
   // // Set width to be twice the height
   // const depth = height;
 
-  const texture_1 = useLoader(TextureLoader, "../../../images/gradient.jpg")
-  const texture_2 = useLoader(TextureLoader, "../../../images/blog.png")
+  const texture_1 = useLoader(TextureLoader, "/images/gradient.jpg")
+  const texture_2 = useLoader(TextureLoader, "/images/blog.png")
 
   return (
 
