@@ -5,7 +5,7 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 // Example dynamic import
-const img1 = require("../../images/projects/1.jpg");
+const img1 = require("../../../public/images/projects/1.jpg");
 
 
 const projectsData = [
