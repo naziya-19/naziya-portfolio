@@ -28,7 +28,7 @@ function Cube({progress}) {
       mesh.current.rotation.z += delta * 0.35
     })
 
-  const texture_1 = useLoader(TextureLoader, "/images/gradient.jpg")
+  const texture_1 = useLoader(TextureLoader, "../../../images/gradient.jpg")
   return (
     <mesh ref={mesh}>
           <boxGeometry args={[2.5, 2.5, 2.5]}/>
